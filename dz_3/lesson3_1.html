@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>3 lesson_1</title>
+	</head>
+	<body>
+		<h1>JavaScript 3 lesson</h1>
+        <h2>Задание 1</h2>
+		<h6>Выполнил: Силкина Юлия</h6>
+        <script>
+        //homework 3 Silkina
+        "use strict";
+
+        /*  //Просто вывод чисел от 0 до 10
+        for (let i = 0; i<11; i++) {
+            console.log('Счетчик равен: ' + i);
+        }
+        */
+
+        //задание 1
+        for (let i = 0; i<11; i++) {
+            if (i==0) {
+                console.log(i + ' - это ноль');
+            }
+            let result = i % 2;
+            if (result == 0 && i != 0) {
+                console.log(i + ' - это четное число');
+            }
+            else if (result == 1) {
+                console.log(i + ' - это НЕчетное число');
+            }
+        }
+        </script>
+	</body>
+</html>
