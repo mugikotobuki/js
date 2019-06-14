@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>4 lesson_1</title>
+	</head>
+	<body>
+		<h1>JavaScript 4 lesson</h1>
+        <h2>Задание 1</h2>
+		<h6>Выполнил: Силкина Юлия</h6>
+        <script>
+        "use strict";
+
+        //задание 1
+        function getDigitsOfNumber(num) {
+            if (!Number.isInteger(num) || num < 0 || num > 999) {
+                console.log('Значение аргумента должно быть целым числом в диапазоне [0 .. 999].');
+                return {};
+            }
+
+            return {
+                thirdDigit: num % 10,
+                secondDigit: Math.floor(num / 10) % 10,
+                firstDigit: Math.floor(num / 100)
+            }
+        };
+
+        console.log(getDigitsOfNumber(789));
+        console.log(getDigitsOfNumber(123).thirdDigit);
+        </script>
+	</body>
+</html>
