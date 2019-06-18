@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Модальное окно</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button>Показать модальное окно</button>
+	
+	
+	<!---Разметка для модального окна---->	
+	<div id="openModal" class="modal hidden">
+	  <div class="modal-dialog">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<h3 class="modal-title">Название</h3>
+			<a href="#" title="Close" class="close">×</a>
+		  </div>
+		  <div class="modal-body">    
+			<p>Содержимое модального окна...</p>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<!---end.Разметка для модального окна---->	
+    
+
+    <script src="modal.js"></script>
+</body>
+</html>
