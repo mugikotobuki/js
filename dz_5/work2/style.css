@@ -1,0 +1,14 @@
+.allProducts {
+	display:flex;
+	width:100%;
+}
+.product {
+width:200px;
+margin-right:20px;
+}
+.desc {
+	display:none;
+}
+button {
+	display:block;
+}
