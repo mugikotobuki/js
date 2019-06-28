@@ -1,0 +1,42 @@
+body {
+     font-family:Arial, sans-serif;
+}
+.allProducts {
+	display:flex;
+	width:100%;
+}
+.product {
+    width:200px;
+    margin-right:20px;
+}
+.productName {
+    font-size:20px;
+    color:blue;
+    margin-bottom: 10px;
+}
+.product img {
+    margin-bottom: 10px;
+    width:200px;
+}
+.cost {
+    color:darkgreen;
+    margin-bottom: 10px;
+}
+button {
+	display:block;
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.basket {
+    width:100%;
+    border:2px solid gray;
+    margin-top:20px;
+}
+th {
+    border:1px solid gray;
+}
+td {
+    border:1px solid gray;
+}
